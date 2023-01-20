@@ -16,6 +16,15 @@
     {% endfor %} {% endif %} {% endwith %}
     <p>Welcome {{ current_user.id }}</p>
     <hr />
+    <!-- <div class="timer">
+        <span class="timer-digit" id="hour">00</span>
+        <span class="timer-text">:</span>
+        <span class="timer-digit" id="min">00</span>
+        <span class="timer-text">:</span>
+        <span class="timer-digit" id="sec">00</span>
+    </div> -->
+    <section id="date-time"></section>
+    <br>
     <div class="menu-buttons">
         <button class="menu-actions" id="tummy-time" value="tummy time">tummy time</button>
         <button class="menu-actions" id="sleep-time" value="sleep time">sleep time</button>
